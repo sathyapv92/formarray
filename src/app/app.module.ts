@@ -8,11 +8,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import { TableSelectionExample } from './table-selection-example/table-selection-example.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { NumberinputDirective } from './numberinput.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableSelectionExample
+    TableSelectionExample,
+    NumberinputDirective
   ],
   imports: [
     BrowserModule,ReactiveFormsModule,BrowserAnimationsModule,NoopAnimationsModule,
