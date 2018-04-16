@@ -10,19 +10,22 @@ import { TableSelectionExample } from './table-selection-example/table-selection
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { NumberinputDirective } from './numberinput.directive';
 import { TblComponent } from './tbl/tbl.component';
+import { ValiationsComponent } from './valiations/valiations.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableSelectionExample,
     NumberinputDirective,
-    TblComponent
+    TblComponent,
+    ValiationsComponent
   ],
   imports: [
     BrowserModule,ReactiveFormsModule,BrowserAnimationsModule,NoopAnimationsModule,
     MatTableModule,
     MatCheckboxModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
