@@ -11,6 +11,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { NumberinputDirective } from './numberinput.directive';
 import { TblComponent } from './tbl/tbl.component';
 import { ValiationsComponent } from './valiations/valiations.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ValiationsComponent } from './valiations/valiations.component';
     TableSelectionExample,
     NumberinputDirective,
     TblComponent,
-    ValiationsComponent
+    ValiationsComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,ReactiveFormsModule,BrowserAnimationsModule,NoopAnimationsModule,
